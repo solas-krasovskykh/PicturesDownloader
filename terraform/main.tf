@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "LabCommon"
-    storage_account_name = "common012345"
+    storage_account_name = "common71992"
     container_name       = "terraform"
     key                  = "lab11.tfstate"
   }
