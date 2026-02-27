@@ -35,7 +35,6 @@ stages:
 - stage: Stage2
   displayName: Second stage
   jobs:
-  jobs:
   - job: ManualApproval
     displayName: Manual validation before Stage2
     pool: server
