@@ -49,6 +49,11 @@ stages:
     steps:
     - checkout: self
 
+    - task: TerraformInstaller@1
+      displayName: Install Terraform
+      inputs:
+        terraformVersion: '1.6.6'
+
     - script: |
         cd terraform
         terraform init -backend=false
